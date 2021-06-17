@@ -1,0 +1,38 @@
+.main{
+    margin-left: 490px;
+    margin-top: 65px;
+    display: inline-block;
+    border: 3px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.966), 0 6px 20px 0 rgba(0, 0, 0, 0.932); 
+}
+
+td{
+    width: 15px;
+    height: 15px;
+    background-color: red;
+     border-spacing: null;
+    border:1px solid rgba(245, 30, 30);
+    cursor:grab;
+
+}
+table{
+    border-spacing: 0px;
+    margin: 8px;
+}
+.white{
+    background-color: silver;
+    border-color: silver;
+    border-spacing: none;
+    -webkit-animation: random 3s infinite;
+    animation: random 3s infinite;
+}
+@keyframes random {
+    15% {background-color: rgb(207, 30, 119);}
+    25% {background-color: rgb(36, 18, 150);}
+    40% {background-color: rgb(24, 216, 88);}
+    55% {background-color: rgb(34, 189, 20);}
+    70% {background-color: rgb(197, 180, 22);}
+    85% {background-color: rgb(228, 48, 17);}
+    100% {background-color: white;}
+
+}
