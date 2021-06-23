@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 100px;
+}
+body{
+    display: flex;
+    background: greenyellow;
+    background-image: url("https://www.oberlo.com/media/1603954623-webp-net-gifmaker-2.gif");
+   /* background-image: url("https://www.e-shot.net/assets/blog_images/emojiblog-1582201694.gif");*/
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.game{
+    width: 640px;
+    height: 620px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    border: 3px solid black;
+    perspective: 1000px;
+    margin-top: 50px;
+    margin-left: 600px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.966), 0 6px 20px 0 rgba(0, 0, 0, 0.932);
+    padding: 7px;
+    background:bisque;
+    /*background: linear-gradient(to top, #66ffff 0%, #ff99ff 100%);
+    /*background: linear-gradient(to top, #66ccff 0%, #ff66ff 100%);
+    /*background: linear-gradient(to top, #3399ff 20%, #ff66ff 100%);*/
+    background: linear-gradient(to top, #66ffff 0%, #ff99ff 100%);
+}
+.card{
+    width: 22%;
+    height: 28.333%;
+    margin: 4px;
+    margin:auto;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    border-radius: 4px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    border: 2px solid aqua;
+}
+.remove{
+    width: 22%;
+    height: 28.333%;
+    margin: 4px;
+    margin:auto;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+
+    
+
+}
+.card:hover{
+    cursor: grab;
+}
+.card:active{
+    transform: scale(0.90);
+    transition: transform .4s;
+}
+.card.yash{
+    transform: rotateY(180deg);
+}
+.front-side
+,.back-side{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    border-radius: 4px;
+    position: absolute;
+    border: 2px solid black;
+    background: blue;
+    backface-visibility: hidden;
+    
+}
+.front-side{
+    transform: rotateY(180deg);
+}
+.yash2{
+    border: 3px solid black;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 300px;
+    border-radius: 10px;
+    height:90px;
+    width: 250px;
+    background-color: ivory;
+    /*background: linear-gradient(to top, #ccccff 0%, #ccffff 100%);*/
+    background: linear-gradient(to bottom, #66ff99 0%, #ffcccc 100%);
+  }
+  #show{
+    border: 2px solid black;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 8px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 6px;
+    text-align: center;
+    background-color: ivory;
+    background: linear-gradient(to bottom, #ffccff 0%, #cc99ff 100%);
+  }
+  #show1{
+    border: 2px solid black;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 8px;
+    height: 30px;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 6px;
+    background-color: ivory;
+    background: linear-gradient(to bottom, #ffccff 0%, #cc99ff 100%);
+  }
+  
+  #show:hover{
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    font-style: italic;
+    font-size: 16px;
+  }
+  #show1:hover{
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    font-style: italic;
+    font-size: 18px;
+  }
+
+

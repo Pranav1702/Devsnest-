@@ -4,6 +4,12 @@
     display: inline-block;
     border: 3px solid black;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.966), 0 6px 20px 0 rgba(0, 0, 0, 0.932); 
+     
+}
+.main:hover{
+    box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.267), 4px 4px 20px 4px rgba(0, 0, 0, 0.384);
+    box-shadow:inset 2px 2px 5px 2px rgba(110, 110, 110, 0.952) ,inset 2px 2px 5px 2px rgba(110, 110, 110, 0.952);
+  
 }
 
 td{

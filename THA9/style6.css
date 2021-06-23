@@ -1,0 +1,101 @@
+td{
+    width: 75px;
+    height: 50px;
+    background-color: red;
+   border-radius: 24px;
+   cursor:grab;
+   margin-bottom: 10px;
+   padding-bottom: 2px;
+   border-spacing: 10px;
+   box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+   box-shadow: inset 3px 2px 4px black;
+}
+td:hover{
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.548), 0 6px 10px 0 rgba(0, 0, 0, 0.438);
+  
+}
+
+
+.main{
+    margin-left: 440px;
+    margin-top: 150px;
+    border: 4px solid black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.966), 0 6px 20px 0 rgba(0, 0, 0, 0.932); 
+    display: inline-block;
+    border-radius: 5px;
+    background-image: url("https://images.cinemaexpress.com/uploads/user/imagelibrary/2020/11/25/original/KGF_Chapter_2.JPG");
+    background-size: cover;
+}
+
+table{
+    margin: 10px;
+    border-spacing: 7px;
+    
+}
+.boxclicked{
+    background-color: rgb(40, 149, 212);
+     box-shadow: inset 3px 2px 7px black;
+}
+.boxclicked:hover{
+  box-shadow: inset 3px 2px 5px black;
+}
+.yash{
+  border: 3px solid black;
+  position: absolute;
+  margin-left: 550px;
+  display: flex;
+  border-radius: 10px;
+  margin-top: 50px;
+  height:50px;
+  width: 280px;
+  background-color: ivory;
+  /*background: linear-gradient(to top, #ccccff 0%, #ccffff 100%);*/
+  background: linear-gradient(to bottom, #66ff99 0%, #ffcccc 100%);
+}
+#show{
+  border: 2px solid black;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 20px;
+  width: 90px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 6px;
+  text-align: center;
+  background-color: ivory;
+  background: linear-gradient(to bottom, #ffccff 0%, #cc99ff 100%);
+}
+#show1{
+  border: 2px solid black;
+  position: relative;
+  margin-left: 30px;
+  margin-top: 10px;
+  height: 20px;
+  width: 90px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 6px;
+  background-color: ivory;
+  background: linear-gradient(to bottom, #ffccff 0%, #cc99ff 100%);
+}
+tr{
+  margin-bottom: 10px;
+}
+#show:hover{
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+  font-style: italic;
+  font-size: 16px;
+}
+#show1:hover{
+  box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+  font-style: italic;
+  font-size: 18px;
+}
+body{
+  background-image: url("https://www.indiewire.com/wp-content/uploads/2021/03/FF-3-Peter-Aaron-OTTO.jpg?w=780");
+  background-size: cover;
+ 
+  background-repeat: no-repeat;
+
+}
