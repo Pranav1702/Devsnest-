@@ -68,9 +68,9 @@ var i=0;
 var Score=0;
 const enter = document.querySelector(".yash");
 
-enter.addEventListener("click",()=>{
-    enter.style.display="none";
-    document.querySelector("#questions").style.display = "block";
+//enter.addEventListener("click",()=>{
+   // enter.style.display="none";
+    //document.querySelector(".1").style.display = "block";
 
     function displayQuestion(){
         for(var a=0;a<span.length;a++){
@@ -112,7 +112,7 @@ function nextQuestion(){
 next.addEventListener('click',nextQuestion);
 //back to quiz button
 
-});
+//});
 function backtoquiz(){
     location.reload();
 }

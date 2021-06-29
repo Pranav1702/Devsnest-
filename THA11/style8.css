@@ -39,7 +39,6 @@ backdrop-filter: blur( 1.5px );
 -webkit-backdrop-filter: blur( 1.5px );
 border-radius: 10px;
 border: 1px solid rgba( 255, 255, 255, 0.18 );
-display: none;
 /*background-image: url("https://cdn2.vectorstock.com/i/1000x1000/24/36/programming-word-cloud-tag-cloud-graphics-vector-27072436.jpg");*/
 /*background-image: url("https://st3.depositphotos.com/4021139/14718/i/1600/depositphotos_147180361-stock-photo-c-plus-plus-abstract-concept.jpg");*/
 
@@ -166,6 +165,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     top: 0;
     left: 0;
     position: absolute;
+    z-index: -1;
 }
 
 .box-area li{
