@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ATut7LP-EyDgiYw63TjmWaNYi9yib4dCyQ&usqp=CAU");*/
+  /*background-image: url("https://images.unsplash.com/photo-1517299321609-52687d1bc55a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c25vd3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");*/
+  /*background-image:url("https://lede-admin.blockclubchicago.org/wp-content/uploads/sites/5/2020/12/122920-Snow-McKinley-Park-ColinBoyle-42.jpg");
+  background-image: url("https://www.collinsdictionary.com/images/full/snow_306991961.jpg");*/
+  /*background-image: url("https://cdn.pixabay.com/photo/2016/04/20/19/47/wolves-1341881__480.jpg");*/
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/141/597/130/forest-wolf-winter-snow-wallpaper-preview.jpg");
+ /* background-image: url("https://www.desktopbackground.org/download/3840x1080/2015/05/21/951591_39-file-name-best-wolf-wallpapers-hd-1603-wolf-hd-wallpapers_4000x2244_h.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
