@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+  font-family: 'STIX Two Text', serif;
+  height:100vh;
+  background-image: url("https://lh3.googleusercontent.com/proxy/lbD3yncA244wzJWJZLbu_9Ch7YondRKrhBpy_NmGJxWzOE9uLCpWpsgOK-YM7IpCm-P43aTwvVSG0UyAZfL2gDnbGeTjiJHuVbMOZskY3tG15a_k6qpK");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://thumbs.dreamstime.com/b/gathering-storm-clouds-blue-sky-gathering-storm-clouds-sunny-blue-sky-full-frame-background-weather-themes-114128720.jpg");
+  background-image: url("http://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/PHOTO-dark%20and%20stormy%20cloudscape-istock-1125x534-Landscape.jpg?itok=xyVD1jOK");
+}
+.App.dark{
+  background-color: black;
+  color: white;
+  background-size: cover;
+  background-image: url("https://wallpapercave.com/wp/wp1890589.jpg");
+  
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdivLWoFud-u8JtLc7XZSNvCRLn0mkqKzgYw&usqp=CAU");
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Thunder_lightning_Garajau_Madeira_289985700.jpg/1200px-Thunder_lightning_Garajau_Madeira_289985700.jpg");
+  background-image: url("https://cdn.pixabay.com/photo/2017/07/18/12/19/flash-2515710_960_720.jpg");
+}
+.card.dark{
+  background-color: rgb(27,27,27);
+  color: white;
+  background: rgba(27, 27, 28, 0.082);
+box-shadow: 8px 10px 20px 8px rgba(4, 4, 10, 0.575);
+backdrop-filter: blur( 15.5px );
+-webkit-backdrop-filter: blur( 15.5px );
+border-radius: 16px;
+border: 3px solid rgba(71, 14, 14, 0.384);
+background-image: url("https://wallpapercave.com/wp/wp1890589.jpg");
+background-image: url("https://i.ytimg.com/vi/_Ma80mhcDTM/hqdefault.jpg");
+background-image: url("https://c4.wallpaperflare.com/wallpaper/209/785/204/cillian-murphy-paky-blinders-thomas-shelby-typography-wallpaper-preview.jpg");
+background-image: url("data:image/jpeg;base64,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");
+background-size: cover;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input{
+  padding: 0px 10px;
+  margin-top: 120px;
+  width:255px;
+  height: 25px;
+  border-radius: 10px;
+}
+.form button{
+ margin: 0px 10px; 
+ margin-top: 120px;
+ padding: 4px;
+ border-radius: 7px;
+}
+input:focus {
+  outline:none;
+}
+
+.form button:hover{
+background-color:blue;
+box-shadow:rgba(7, 7, 7, 0.582) 2px 2px 2px 1px, ;
+border-radius: 3px;
+color:white;
+}
+.bansal1{
+  background-color: white;
+  color: black;
+}
+.bansal2{
+  background-color: black;
+  color: white;
+}
+.card{
+  border-radius: 6px;
+  box-shadow:
+    rgba(7, 7, 7, 0.39) 0px 3px 3px 2px,
+    rgba(0, 0, 0, 0.438) 0px 3px 3px 2px,
+    rgba(0, 0, 0, 0.39) 0px 4px 8px 2px,
+    rgba(0, 0, 0, 0.411) 0px 10px 20px 4px;
+    margin:580px;
+    background-color:cyan;
+    color: black;
+    margin-top: 50px;
+    box-shadow: 8px 10px 20px 8px rgba(4, 4, 10, 0.575);
+backdrop-filter: blur( 5.5px );
+-webkit-backdrop-filter: blur( 5.5px );
+border-radius: 16px;
+border: 3px solid rgba(71, 14, 14, 0.384);
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkIYpEk6dMmZ681-33QwBzCji5ABbVDdws7A&usqp=CAU");
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQlQQQw7EbhevMOjZsbjxqFlTsRBlr4s5qsA&usqp=CAU");
+background-size: cover;
+}
+.weather{
+  text-align: center;
+}
+
+
+.card img{
+  width: 30%;
+  margin-top: 10px;
+}
+.card .place{
+  font-size: 1.8rem;
+  font-weight: 500;
+  opacity: 0.8;
+  margin: 10px 0px;
+}
+.card .temp{
+  font-size: 4rem;
+  font-weight: 500;
+  margin-left: 30.39px;
+}
+.whp{
+  display: flex;
+}
+.whp .title{
+  font-size: 0.8rem;
+  padding-left: 5px;
+  
+}
+.whp .col{
+  margin-left: 25px;
+  padding-right: 33px;
+  margin-bottom: 10px;
+}
+
+.whp .data{
+  font-size: 1.5rem; 
+  font-weight: 500;
+}
+.whp .data .unit{
+  font-size: 0.8rem;
+}
+.card .desc{
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.yash{
+  position: fixed;
+  right:25px;
+  top:25px;
+ 
+}
+button{
+  padding: 6px;
+  border-radius: 7px;
+}
